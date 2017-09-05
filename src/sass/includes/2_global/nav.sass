@@ -1,0 +1,22 @@
+$height: 50px
+
+nav
+  width: 100%
+  height: $height
+  background-color: $primaryColour
+  ul
+    display: flex
+    justify-content: space-around
+    height: $height
+    align-items: center
+    list-style: none
+    li
+      a
+        color: $light
+        text-transform: uppercase
+        text-decoration: none
+        transition: all 0.2s ease-in-out
+        border-bottom: -5px solid $deep
+        &:hover
+          color: $deep
+          border-bottom: 1px solid $deep
